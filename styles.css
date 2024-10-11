@@ -1,0 +1,23 @@
+.clock {
+    height: 100vh;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+}
+
+.clockHands {
+    border: 20px solid black;
+    border-radius: 100%;
+    padding: 250px;
+    position: relative;
+}
+
+.clockHands .hours, .clockHands .minutes, .clockHands .seconds {
+    width: 45%;
+    background: black;
+    position: absolute;
+    height: 6px;
+    right: 50%;
+    transform-origin: 100%;
+    transform: rotate(90deg);
+}
